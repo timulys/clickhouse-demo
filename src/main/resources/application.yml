@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    clickhouse:
+      url: localhost
+      port: 8123
+      database: default
+      username: default
+      password:
+server:
+  port: 9999
